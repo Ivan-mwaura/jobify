@@ -4,7 +4,7 @@
 
 #### Create React APP
 
-[VITE](https://vitejs.dev/guide/)
+
 
 ```sh
 npm create vite@latest projectName -- --template react
@@ -36,26 +36,6 @@ const App = () => {
 };
 export default App;
 ```
-
-#### Project Assets
-
-- get assets folder from complete project
-- copy index.css
-- copy/move README.md (steps)
-  - work independently
-  - reference
-  - troubleshoot
-  - copy
-
-#### Global Styles
-
-- saves times on the setup
-- less lines of css
-- speeds up the development
-
-- if any questions about specific styles
-- Coding Addict - [Default Starter Video](https://youtu.be/UDdyGNlQK5w)
-- Repo - [Default Starter Repo](https://github.com/john-smilga/default-starter)
 
 #### Title and Favicon
 
@@ -93,7 +73,7 @@ npm install @tanstack/react-query@4.29.5 @tanstack/react-query-devtools@4.29.6 a
 
 #### Setup Router
 
-- all my examples will include version !!!
+
 
 ```sh
 npm i react-router-dom@6.10.0
@@ -353,7 +333,7 @@ export default Error;
 - no name collisions
 - apply javascript logic
 - [Styled Components Docs](https://styled-components.com/)
-- [Styled Components Course](https://www.udemy.com/course/styled-components-tutorial-and-project-course/?referralCode=9DABB172FCB2625B663F)
+
 
 ```sh
 npm install styled-components@5.3.10
@@ -1665,10 +1645,9 @@ body {
 
 #### Folder Setup
 
-- IMPORTANT !!!!
-- remove existing .git folder (if any) from client
 
-Mac
+
+
 
 ```sh
 rm -rf .git
@@ -1684,12 +1663,7 @@ rmdir -Force -Recurse .git
 rd /s /q .git
 ```
 
-- Windows commands were shared by students and I have not personally tested them.
-- git status should return :
-  "fatal: Not a git repository (or any of the parent directories): .git"
-- create jobify directory
-- copy/paste client
-- move README to root
+
 
 #### Setup Server
 
